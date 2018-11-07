@@ -21,7 +21,7 @@ public class IntroToRandom {
 		//5. Limit the random number between 25 and 75. Hint: ((highest value - lowest value)+1) + lowest value
 r=whiteout.nextInt(61)+30;
 		//6. Challenge: Limit the random number between -222 and 88
-r=whiteout.nextInt(-20);
+r=whiteout.nextInt((88 - -222)+1)+-1;
 		//1. Print out the value of r
 		System.out.println(r);
 		//2. Run the program.  What number appears in the console?
