@@ -18,11 +18,10 @@ public class AnimalFarm {
 		 */
 		for(int i=0;i>-1999;i++) {
 	String answer=JOptionPane.showInputDialog("What animal would you like to hear?");
+		/* 2. Make it so that the user can keep entering new animals. */
 			if(answer.equals("Wolves")) {
 				playNoise(woofFile);
 			}
-		/* 2. Make it so that the user can keep entering new animals. */
-	
 			if(answer.equals("Cat")) {
 		playNoise(meowFile);
 	}
