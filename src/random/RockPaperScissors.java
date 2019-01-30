@@ -79,9 +79,10 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 
         //2. Change the value of opponentSelection to be a random number between 0 and 2;
 	//   Don't forget to create a Random object.
-	    Random freew =new Random();
+	    Random free =new Random();
+	    int num= free.nextInt(3);
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = 0;
+	    int opponentSelection=free.nextInt(3);
         
         //3. Run the program again. Is the result different?
  
@@ -107,7 +108,12 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         }
     }
     
-    private String convertSelection(int s){
+    private void nextInt(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private String convertSelection(int s){
        if (s==0)
             return "ROCK";
        else if (s==1)
